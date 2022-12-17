@@ -1,2 +1,2 @@
 # mtg-life-tracker
-Gamstate tracker for MTG
+Gamestate tracker for MTG
