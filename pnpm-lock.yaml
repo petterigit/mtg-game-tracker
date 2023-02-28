@@ -12,7 +12,7 @@ importers:
       prettier: 2.8.4
       turbo: 1.8.3
 
-  apps/mtgt-backend:
+  apps/backend:
     specifiers:
       '@mtgt/tsconfig': workspace:*
       '@nestjs/cli': ^9.0.0
@@ -71,7 +71,7 @@ importers:
       tsconfig-paths: 4.1.1
       typescript: 4.9.5
 
-  apps/mtgt-browser:
+  apps/browser:
     specifiers:
       '@mtgt/ui-components': workspace:*
       '@playwright/test': ^1.28.1
