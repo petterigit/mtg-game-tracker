@@ -1,5 +1,5 @@
 {
-	"name": "ui-components-react",
+	"name": "@mtgt/ui-components-react",
 	"version": "1.0.0",
 	"description": "",
 	"main": "index.js",
@@ -10,7 +10,7 @@
 	"author": "",
 	"license": "ISC",
 	"dependencies": {
-		"ui-components": "workspace:*"
+		"@mtgt/ui-components": "workspace:*"
 	},
 	"devDependencies": {
 		"@types/react": "^18.0.22",
