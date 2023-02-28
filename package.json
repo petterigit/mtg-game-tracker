@@ -13,7 +13,7 @@
 		"format": "prettier --write \"**/*.{ts,tsx,md}\""
 	},
 	"devDependencies": {
-		"@mtgt/eslint-config-custom": "workspace:*",
+		"@mtgt/eslint": "workspace:*",
 		"prettier": "latest",
 		"turbo": "latest"
 	},

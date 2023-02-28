@@ -4,17 +4,16 @@ importers:
 
   .:
     specifiers:
-      '@mtgt/eslint-config-custom': workspace:*
+      '@mtgt/eslint': workspace:*
       prettier: latest
       turbo: latest
     devDependencies:
-      '@mtgt/eslint-config-custom': link:packages/eslint-config-custom
+      '@mtgt/eslint': link:packages/eslint
       prettier: 2.8.4
       turbo: 1.8.3
 
   apps/backend:
     specifiers:
-      '@mtgt/tsconfig': workspace:*
       '@nestjs/cli': ^9.0.0
       '@nestjs/common': ^9.0.0
       '@nestjs/core': ^9.0.0
@@ -48,7 +47,6 @@ importers:
       reflect-metadata: 0.1.13
       rxjs: 7.8.0
     devDependencies:
-      '@mtgt/tsconfig': link:../../packages/tsconfig
       '@nestjs/cli': 9.2.0
       '@nestjs/schematics': 9.0.4_typescript@4.9.5
       '@nestjs/testing': 9.3.9_yqmogfxzeu633isbftgaoi4ho4
@@ -107,7 +105,7 @@ importers:
       typescript: 4.9.5
       vite: 4.1.4
 
-  packages/eslint-config-custom:
+  packages/eslint:
     specifiers:
       eslint: ^7.23.0
       eslint-config-next: 13.0.0
@@ -123,9 +121,6 @@ importers:
       eslint-plugin-react: 7.31.8_eslint@7.32.0
     devDependencies:
       typescript: 4.9.5
-
-  packages/tsconfig:
-    specifiers: {}
 
   packages/ui-components:
     specifiers:
