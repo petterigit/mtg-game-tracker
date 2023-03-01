@@ -2,9 +2,9 @@
 export async function load() {
 	const request = await fetch('http://localhost:3000/');
 
-	const json = await request.json();
+	const res = await request.text();
 
-	const res = json;
+	console.log(res);
 
-	return res;
+	return { lobby: res };
 }

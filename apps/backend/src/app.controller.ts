@@ -6,7 +6,7 @@ export class AppController {
   constructor(private readonly appService: AppService) {}
 
   @Get()
-  getState(): GameState {
-    return this.appService.getState();
+  getState(): string {
+    return this.appService.getLobby();
   }
 }
